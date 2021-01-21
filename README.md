@@ -15,4 +15,4 @@ git clone https://github.com/jonatcantor/Coding-bootcamp-testimonials-slider.git
 
 ## Image
 
-![Preview Image]()
+![Preview Image](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/gjb8o7cldabnp8hpkhmg.jpg)
