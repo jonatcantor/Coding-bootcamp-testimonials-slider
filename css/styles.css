@@ -20,14 +20,17 @@ html, body {
   margin: 0 auto;
 }
 
+body {
+  background-image: url("./../images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-size: 60% 25%;
+  background-position: bottom left;
+}
+
 .container {
   padding: 0 5vw;
   display: flex;
   flex-direction: row;
-  background-image: url("./../images/pattern-curve.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom left;
 }
 
 .comment {
@@ -130,20 +133,57 @@ html, body {
 
 @media (min-width: 768px) {
   .comment {
+    min-width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 0;
-    min-width: 100%;
+    justify-content: space-between;
+  }
+
+  .comment--hidden {
+    display: none;
   }
 
   .comment__image-container {
-    width: 50%;
+    min-width: 50%;
+    padding: 6%;
   }
 
   .comment__text {
-    width: 50%;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .comment__author {
+    display: flex;
+  }
+
+  .comment__author-name {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 50px;
   }
 }
