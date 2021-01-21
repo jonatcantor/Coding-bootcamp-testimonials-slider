@@ -94,7 +94,7 @@ body {
 .footer {
   font-size: 0.45rem;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
   margin-left: 10px;
 }
 
@@ -120,6 +120,7 @@ body {
   background-size: 0.25rem;
   border: none;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .comment__button--back {
